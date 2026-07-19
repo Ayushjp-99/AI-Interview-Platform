@@ -1,0 +1,66 @@
+/* Report detail page styles */
+
+.report-page-loading {
+  min-height: 80vh;
+}
+
+.report-pdf-wrapper {
+  background: var(--bg-primary);
+}
+
+.report-main-icon {
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.summary-assessment {
+  line-height: 1.7;
+}
+
+/* Metric boxes */
+.metric-box {
+  padding: var(--space-4);
+  background: var(--bg-glass);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+}
+
+.metric-box-icon {
+  font-size: 1.8rem;
+}
+
+/* Insights lists */
+.insight-item {
+  align-items: flex-start;
+}
+
+/* Learning path box */
+.learning-path-box {
+  background: var(--bg-secondary);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+}
+
+/* Graded Questions */
+.question-graded-card {
+  background: var(--bg-secondary);
+}
+
+.bg-input-box {
+  background: var(--bg-input);
+  border: 1px solid var(--border-color);
+}
+
+.bg-light-red {
+  background: rgba(239, 68, 68, 0.05);
+  border: 1px solid rgba(239, 68, 68, 0.2);
+}
+
+.model-answer-box {
+  border: 1.5px dashed var(--border-color);
+}
+
+.suggestions-list-bullets {
+  list-style-type: disc;
+}

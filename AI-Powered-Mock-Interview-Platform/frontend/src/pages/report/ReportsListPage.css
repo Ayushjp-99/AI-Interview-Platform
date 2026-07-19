@@ -1,0 +1,20 @@
+/* Reports list page styles */
+
+.reports-loading {
+  min-height: 60vh;
+}
+
+.report-card {
+  background: var(--bg-card);
+}
+
+.report-cat-icon {
+  font-size: 2.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.report-title {
+  font-size: var(--text-base);
+  font-weight: 700;
+}

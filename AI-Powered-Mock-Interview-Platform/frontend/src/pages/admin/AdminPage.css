@@ -1,0 +1,33 @@
+/* Admin Panel Page styles */
+
+.admin-loading {
+  min-height: 80vh;
+}
+
+.admin-tabs {
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: var(--space-4);
+  display: flex;
+}
+
+.tab-btn {
+  font-weight: 600;
+}
+
+.tab-btn.active {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+}
+
+.category-stats-list {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.db-diag-details {
+  background: var(--bg-glass);
+  padding: var(--space-4);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+}
